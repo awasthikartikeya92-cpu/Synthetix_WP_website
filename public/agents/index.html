@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agents — Synthetix</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+<script src="/assets/nav.js"></script>
+<div class="page-body">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero__eyebrow">— Agent Workforce</div>
+    <h1 class="hero__heading">A workforce built for<br><em>enterprise scale.</em></h1>
+    <p class="hero__body">Nine specialist agents. Each owns a discrete function in the delivery chain including comprehension, strategy, forecasting, quality assurance, orchestration, verification, governance, intelligence, and engineering guidance. They operate in sequence, hand off to each other without human coordination overhead, and escalate only when a decision requires human judgment. Listed below in the order they engage.</p>
+  </div>
+</section>
+
+<!-- WORKFLOW BAND -->
+<section class="section section--dark-2">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="eyebrow">— Workflow</span>
+      <h2 class="section-title section-title--white">Autonomous handoffs.<br>Accountable outcomes.</h2>
+    </div>
+    <div class="workflow-track">
+      <div class="workflow-step"><div class="workflow-node">Cartographer</div><p>maps the estate</p></div>
+      <div class="workflow-connector"></div>
+      <div class="workflow-step"><div class="workflow-node">Architect</div><p>generates target state</p></div>
+      <div class="workflow-connector"></div>
+      <div class="workflow-step"><div class="workflow-node">Estimator</div><p>defensible plan</p></div>
+      <div class="workflow-connector"></div>
+      <div class="workflow-step"><div class="workflow-node">Critic</div><p>audits every output</p></div>
+      <div class="workflow-connector workflow-connector--gate"></div>
+      <div class="workflow-gate"><div class="gate-diamond"><div class="gate-diamond-inner">H</div></div><span class="gate-label">Human gate</span></div>
+      <div class="workflow-connector workflow-connector--gate"></div>
+      <div class="workflow-step"><div class="workflow-node">Builder Swarm</div><p>executes</p></div>
+      <div class="workflow-connector"></div>
+      <div class="workflow-step"><div class="workflow-node">Examiner</div><p>validates</p></div>
+      <div class="workflow-connector"></div>
+      <div class="workflow-step"><div class="workflow-node">Gatekeeper</div><p>enforces policy &amp; audit</p></div>
+      <div class="workflow-connector workflow-connector--gate"></div>
+      <div class="workflow-gate"><div class="gate-diamond"><div class="gate-diamond-inner">H</div></div><span class="gate-label">Human gate</span></div>
+    </div>
+    <p style="margin-top:28px;font-size:16px;font-style:italic;color:var(--color-body-dark);text-align:center">Seven autonomous handoffs. Two human approvals. Full program accountability at each stage.</p>
+  </div>
+</section>
+
+<!-- AGENT CARDS -->
+<section class="section section--light">
+<div class="container">
+<div style="display:flex;flex-direction:column;gap:32px">
+
+<!-- 01 CARTOGRAPHER -->
+<div class="agent-card" id="cartographer">
+  <div class="agent-card__header">
+    <span class="agent-number">01</span>
+    <div>
+      <div class="tag-row">
+        <span class="tag">Stage: Discover, Analyze</span>
+        <span class="tag">Role: Comprehension</span>
+      </div>
+      <h2 class="agent-card__name">CARTOGRAPHER</h2>
+    </div>
+  </div>
+  <h3 class="agent-card__headline">Full estate comprehension before a single line changes.</h3>
+  <p class="agent-card__body">Cartographer is the first agent to engage on any program. It performs path-level analysis across source code, infrastructure as code, network topology, integration surfaces, and data lineage — and materializes that understanding into the Atlas knowledge graph. Every agent that follows operates against that graph. Without Cartographer, downstream decisions are assumptions. With it, they are grounded positions.</p>
+  <div class="agent-card__io">
+    <div><p class="io-label">Inputs:</p><ul class="bullet-list"><li>Source repositories across all supported languages and frameworks</li><li>IaC modules, Helm charts, Kubernetes manifests, Terraform state</li><li>Observability feeds, topology data, and integration catalogs</li></ul></div>
+    <div><p class="io-label">Outputs:</p><ul class="bullet-list"><li>The Atlas knowledge graph, scoped to the engagement</li><li>Path-level comprehension with confidence scoring per domain</li><li>Risk vectors and concentration points flagged for downstream review</li></ul></div>
+  </div>
+</div>
+
+<!-- 02 ARCHITECT -->
+<div class="agent-card" id="architect">
+  <div class="agent-card__header">
+    <span class="agent-number">02</span>
+    <div>
+      <div class="tag-row"><span class="tag">Stage: Architect</span><span class="tag">Role: Strategy</span></div>
+      <h2 class="agent-card__name">ARCHITECT</h2>
+    </div>
+  </div>
+  <h3 class="agent-card__headline">Target-state design grounded in what the estate actually is.</h3>
+  <p class="agent-card__body">Architect consumes the Atlas graph produced by Cartographer and generates a target-state architecture that reflects the actual system, not an idealized abstraction of it. It applies your platform contracts and technology standards, identifies migration risk vectors, proposes wave sequencing for phased execution, and produces architecture artifacts that are reviewable and defensible at the CTO and enterprise architecture level.</p>
+  <div class="agent-card__io">
+    <div><p class="io-label">Inputs:</p><ul class="bullet-list"><li>Atlas knowledge graph from Cartographer</li><li>Business brief, capability requirements, and desired outcomes</li><li>Organization's technology radar and approved platform standards</li></ul></div>
+    <div><p class="io-label">Outputs:</p><ul class="bullet-list"><li>Target-state architecture document, ready for human sign-off</li><li>Risk register with migration exposure and mitigation options</li><li>Wave sequencing and capability briefs passed to Estimator</li></ul></div>
+  </div>
+</div>
+
+<!-- 03 ESTIMATOR -->
+<div class="agent-card" id="estimator">
+  <div class="agent-card__header">
+    <span class="agent-number">03</span>
+    <div>
+      <div class="tag-row"><span class="tag">Stage: Architect</span><span class="tag">Role: Forecasting</span></div>
+      <h2 class="agent-card__name">ESTIMATOR</h2>
+    </div>
+  </div>
+  <h3 class="agent-card__headline">Program economics your CFO and PMO can stand behind.</h3>
+  <p class="agent-card__body">Estimator sizes the delivery program against the Architect's plan and the Atlas graph. Work breakdowns are constructed with explicit acceleration factors applied at the work-package level — identifying what agents compress, what they cannot, and where genuine human effort remains non-negotiable. The output is a risk-adjusted timeline and cost forecast built on evidence, not precedent. A plan the finance committee can interrogate and the program office can execute against.</p>
+  <div class="agent-card__io">
+    <div><p class="io-label">Inputs:</p><ul class="bullet-list"><li>Architect's target-state plan and wave sequencing</li><li>Atlas graph for scope quantification and complexity assessment</li><li>Historical run telemetry from prior Synthetix engagements</li></ul></div>
+    <div><p class="io-label">Outputs:</p><ul class="bullet-list"><li>Work breakdown structure with per-package acceleration factors</li><li>Risk-adjusted timeline and cost forecast by wave</li><li>Resource and budget projections formatted for PMO and CFO review</li></ul></div>
+  </div>
+</div>
+
+<!-- 04 CRITIC -->
+<div class="agent-card" id="critic">
+  <div class="agent-card__header">
+    <span class="agent-number">04</span>
+    <div>
+      <div class="tag-row"><span class="tag">Stage: All stages</span><span class="tag">Role: Quality</span></div>
+      <h2 class="agent-card__name">CRITIC</h2>
+    </div>
+  </div>
+  <h3 class="agent-card__headline">Scope drift and hallucinations stopped before human review.</h3>
+  <p class="agent-card__body">Critic operates as a cross-cutting quality function across the entire pipeline. It reviews every agent output — architecture documents, estimates, generated code, test suites, governance artifacts — for hallucination, scope drift, unsafe change proposals, and structural instability, all before any artifact reaches a human reviewer. Outputs that fail review are returned to the originating agent with specific, traceable revision guidance. Resolution typically completes within two autonomous cycles. Human escalation is reserved for genuine uncertainty that cannot be resolved within the agent layer.</p>
+  <div class="agent-card__io">
+    <div><p class="io-label">Inputs:</p><ul class="bullet-list"><li>Outputs from every agent at each pipeline stage</li><li>Atlas graph as the evidentiary baseline for grounding checks</li><li>Your organizational standards and compliance posture</li></ul></div>
+    <div><p class="io-label">Outputs:</p><ul class="bullet-list"><li>Pass or revise verdict with a confidence score per artifact</li><li>Targeted revision instructions routed back to the source agent</li><li>Escalation to human reviewers when Critic confidence falls below threshold</li></ul></div>
+  </div>
+</div>
+
+<!-- 05 CONDUCTOR -->
+<div class="agent-card" id="conductor">
+  <div class="agent-card__header">
+    <span class="agent-number">05</span>
+    <div>
+      <div class="tag-row"><span class="tag">Stage: Build, all stages</span><span class="tag">Role: Orchestration</span></div>
+      <h2 class="agent-card__name">CONDUCTOR</h2>
+    </div>
+  </div>
+  <h3 class="agent-card__headline">Delivery cadence, dependency management, and stakeholder narrative across every run.</h3>
+  <p class="agent-card__body">Conductor the agent owns the delivery rhythm of the program. It tracks module state across waves, surfaces what is in flight, what is blocked, and what is approaching risk thresholds — and translates that picture into stakeholder communication calibrated by audience and urgency. It pairs with the Conductor orchestration engine (the platform runtime responsible for module coordination and wave mechanics) to provide both execution visibility and the narrative layer that keeps programs aligned.</p>
+  <div class="callout"><strong>Note:</strong> Conductor the agent narrates program progress. Conductor the orchestrator runs the platform. They share a name because they share a purpose.</div>
+  <div class="agent-card__io">
+    <div><p class="io-label">Inputs:</p><ul class="bullet-list"><li>Conductor orchestrator state across active modules and wave cohorts</li><li>Risk register from Architect and Estimator</li><li>External signals from project management tools and observability platforms</li></ul></div>
+    <div><p class="io-label">Outputs:</p><ul class="bullet-list"><li>Real-time delivery dashboard for program leadership</li><li>Stakeholder status updates calibrated to audience and escalation level</li><li>Dependency conflict surfacing and risk escalation for human decision</li></ul></div>
+  </div>
+</div>
+
+<!-- 06 EXAMINER -->
+<div class="agent-card" id="examiner">
+  <div class="agent-card__header">
+    <span class="agent-number">06</span>
+    <div>
+      <div class="tag-row"><span class="tag">Stage: Verify</span><span class="tag">Role: Verification</span></div>
+      <h2 class="agent-card__name">EXAMINER</h2>
+    </div>
+  </div>
+  <h3 class="agent-card__headline">Verification against real behavior, not happy-path assumptions.</h3>
+  <p class="agent-card__body">Examiner generates and executes tests across unit, integration, and contract surfaces. Coverage gating is configurable by change class, with an 85% threshold applied by default. Units that fail are returned to the Builder swarm with specific diagnostic context rather than a generic failure signal. Test assertions are grounded in production traces and behavioral specifications — not generated boilerplate. Examiner's output is the verification layer that Gatekeeper depends on before any promotion decision is made.</p>
+  <div class="agent-card__io">
+    <div><p class="io-label">Inputs:</p><ul class="bullet-list"><li>Code and infrastructure artifacts from the Builder swarm</li><li>Behavioral specifications from the Architect</li><li>Production traces, where available, for golden-path test generation</li></ul></div>
+    <div><p class="io-label">Outputs:</p><ul class="bullet-list"><li>Test suite with meaningful assertions at unit, integration, and contract levels</li><li>Coverage report validated against configurable gating thresholds</li><li>Pass or fail verdict per unit with full diagnostic context for remediation</li></ul></div>
+  </div>
+</div>
+
+<!-- 07 GATEKEEPER -->
+<div class="agent-card" id="gatekeeper">
+  <div class="agent-card__header">
+    <span class="agent-number">07</span>
+    <div>
+      <div class="tag-row"><span class="tag">Stage: Govern</span><span class="tag">Role: Governance</span></div>
+      <h2 class="agent-card__name">GATEKEEPER</h2>
+    </div>
+  </div>
+  <h3 class="agent-card__headline">Policy-enforced promotion with a signed audit trail on every change.</h3>
+  <p class="agent-card__body">Gatekeeper is the governance and compliance enforcement layer at the close of the pipeline. It applies four-tier change classification to every verified artifact, enforces your organization's security and compliance policy, and produces a signed evidence chain covering each promotion decision. Changes can be reversed at the wave level without cascading rollback complexity. For organizations in regulated industries — financial services, healthcare, insurance, government — Gatekeeper is the mechanism that makes autonomous delivery auditable and enterprise-viable.</p>
+  <div class="agent-card__io">
+    <div><p class="io-label">Inputs:</p><ul class="bullet-list"><li>Verified artifacts and coverage reports from Examiner</li><li>Your policy library, compliance posture, and regulatory requirements</li><li>Change classification rules and the approval authority graph</li></ul></div>
+    <div><p class="io-label">Outputs:</p><ul class="bullet-list"><li>Promote, hold, or reject verdict with rationale per change unit</li><li>Signed evidence chain covering every classification and enforcement decision</li><li>Audit-ready artifact for internal governance, external audit, and regulatory review</li></ul></div>
+  </div>
+</div>
+
+<!-- 08 SCOUT -->
+<div class="agent-card" id="scout">
+  <div class="agent-card__header">
+    <span class="agent-number">08</span>
+    <div>
+      <div class="tag-row"><span class="tag">Stage: Discover, cross-cutting</span><span class="tag">Role: Intelligence</span></div>
+      <h2 class="agent-card__name">SCOUT</h2>
+    </div>
+  </div>
+  <h3 class="agent-card__headline">Evidence-grounded intelligence at the pace the engagement demands.</h3>
+  <p class="agent-card__body">Scout is the research and intelligence function of the platform. When a program requires regulatory landscape analysis, technology comparison, vendor evaluation, or a briefing for the steering committee, Scout produces it — with provenance on every claim and output calibrated to the intended audience. Scout operates across the delivery lifecycle, not just at initiation. It surfaces competitive and compliance signals as they become relevant, and formats outputs for the decision-making context in which they will be consumed.</p>
+  <div class="agent-card__io">
+    <div><p class="io-label">Inputs:</p><ul class="bullet-list"><li>Research mandates from Architect, Conductor, or authorized human stakeholders</li><li>Approved internal and external knowledge sources</li><li>Audience context and output format requirements</li></ul></div>
+    <div><p class="io-label">Outputs:</p><ul class="bullet-list"><li>Technical and regulatory briefs with source provenance on every claim</li><li>Presentation decks and comparison matrices calibrated by audience</li><li>Competitive and compliance landscape analysis for program and commercial decisions</li></ul></div>
+  </div>
+</div>
+
+<!-- 09 MENTOR -->
+<div class="agent-card" id="mentor">
+  <div class="agent-card__header">
+    <span class="agent-number">09</span>
+    <div>
+      <div class="tag-row"><span class="tag">Stage: Cross-cutting, Evolve</span><span class="tag">Role: Guidance</span></div>
+      <h2 class="agent-card__name">MENTOR</h2>
+    </div>
+  </div>
+  <h3 class="agent-card__headline">Institutional knowledge, embedded in the tools your engineers already use.</h3>
+  <p class="agent-card__body">Mentor is the engineer-facing agent, operating in the IDE, in the team chat, and in the ticket system. It answers questions grounded in the Atlas graph, explains generated code in context, surfaces prior decisions and architectural standards, and captures the tribal knowledge that typically walks out the door with attrition. As engineers interact with Mentor, the platform's institutional memory grows. That knowledge feeds subsequent programs, shortens onboarding cycles, and reduces dependency on any single contributor.</p>
+  <div class="agent-card__io">
+    <div><p class="io-label">Inputs:</p><ul class="bullet-list"><li>Engineer questions, active code context, and debugging sessions</li><li>Atlas graph and the platform's accumulated institutional memory</li><li>Documentation, runbooks, architectural decisions, and prior program artifacts</li></ul></div>
+    <div><p class="io-label">Outputs:</p><ul class="bullet-list"><li>In-context guidance and answers delivered in the IDE or team chat</li><li>Captured tribal knowledge persisted to the platform for future programs</li><li>Structured onboarding pathways for incoming engineering team members</li></ul></div>
+  </div>
+</div>
+
+</div><!-- flex column -->
+</div>
+</section>
+
+<!-- CTA -->
+<div class="cta-band">
+  <div class="container">
+    <h2 class="cta-band__heading">See the workforce in a live program.</h2>
+    <div class="btn-group" style="justify-content:center">
+      <a href="/company/contact/" class="btn btn--primary">Request a Live Demo</a>
+      <a href="/governance/" class="btn btn--outline">Explore Governance</a>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
