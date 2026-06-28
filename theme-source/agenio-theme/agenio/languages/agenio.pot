@@ -1,0 +1,760 @@
+# Copyright (C) 2026 WPRiver
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Agenio 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/agenio\n"
+"POT-Creation-Date: 2026-05-13 10:34:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: archive.php:23
+msgid "Daily Archives: "
+msgstr ""
+
+#: archive.php:26
+msgid "Monthly Archives: "
+msgstr ""
+
+#: archive.php:30
+msgid "Yearly Archives: "
+msgstr ""
+
+#: archive.php:44 archive.php:54
+msgid "Archives"
+msgstr ""
+
+#: archive.php:51 author.php:25 category.php:25 index.php:25
+#: page-templates/blog-2-column.php:29 page-templates/blog-3-column.php:29
+#: page-templates/blog-standard.php:29 page.php:26 search.php:25 single.php:26
+#: tag.php:25
+msgid "Home"
+msgstr ""
+
+#: archive.php:53 author.php:27 category.php:27 index.php:27
+#: page-templates/blog-2-column.php:31 page-templates/blog-3-column.php:31
+#: page-templates/blog-standard.php:31 page.php:28 search.php:27 single.php:28
+#: tag.php:27
+msgid "/"
+msgstr ""
+
+#: author.php:21
+msgid "All posts by "
+msgstr ""
+
+#: author.php:28
+msgid "Author Archives"
+msgstr ""
+
+#: category.php:21
+msgid "Category Archives: "
+msgstr ""
+
+#: category.php:28
+msgid "Category Archives"
+msgstr ""
+
+#: comments.php:18
+msgid "0 Comment"
+msgstr ""
+
+#: comments.php:19 template-parts/content-page.php:37
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:20 template-parts/content-page.php:37
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:47
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:56
+msgid "Post a Comments"
+msgstr ""
+
+#: comments.php:56
+msgid "Reply to %s"
+msgstr ""
+
+#: comments.php:60
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:68
+msgid "Logged in as %1$s. %2$s"
+msgstr ""
+
+#: comments.php:70
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:76
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: comments.php:92
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:100
+msgid "Enter your full name"
+msgstr ""
+
+#: comments.php:107
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:115
+msgid "Enter your email"
+msgstr ""
+
+#: comments.php:124
+msgid "Comments"
+msgstr ""
+
+#: comments.php:126
+msgid "Enter your Comment"
+msgstr ""
+
+#: comments.php:133
+msgid "Post Comment"
+msgstr ""
+
+#: functions.php:276
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:278
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr ""
+
+#: functions.php:400
+msgid "Import process may take 2-5 minutes. If you are facing any issues, please contact our support."
+msgstr ""
+
+#: inc/redux/config.php:21
+msgid "Agenio Options"
+msgstr ""
+
+#: inc/redux/config.php:50
+msgid "404 Page"
+msgstr ""
+
+#: inc/redux/config.php:58
+msgid "Page Title"
+msgstr ""
+
+#: inc/redux/config.php:65
+msgid "Description Text"
+msgstr ""
+
+#: inc/redux/config.php:72
+msgid "Button Text"
+msgstr ""
+
+#: inc/redux/config.php:79
+msgid "Button URL"
+msgstr ""
+
+#: inc/redux/config.php:89
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/redux/config.php:91
+msgid "Settings for displaying blog posts"
+msgstr ""
+
+#: inc/redux/config.php:97
+msgid "Blog Standard"
+msgstr ""
+
+#: inc/redux/config.php:106 inc/redux/config.php:131 inc/redux/config.php:156
+msgid "Select Categories"
+msgstr ""
+
+#: inc/redux/config.php:107 inc/redux/config.php:132 inc/redux/config.php:157
+msgid "Choose categories to display posts from. Leave empty to show all."
+msgstr ""
+
+#: inc/redux/config.php:114 inc/redux/config.php:139 inc/redux/config.php:164
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/redux/config.php:115 inc/redux/config.php:140 inc/redux/config.php:165
+msgid "Number of posts to display per page."
+msgstr ""
+
+#: inc/redux/config.php:122
+msgid "Blog Grid — 2 Column"
+msgstr ""
+
+#: inc/redux/config.php:147
+msgid "Blog Grid — 3 Column"
+msgstr ""
+
+#: inc/redux/config.php:176
+msgid "Site Elements"
+msgstr ""
+
+#: inc/redux/config.php:178
+msgid "Control global UI elements shown on every page."
+msgstr ""
+
+#: inc/redux/config.php:184
+msgid "Scroll To Top"
+msgstr ""
+
+#: inc/redux/config.php:192
+msgid "Enable Scroll To Top Button"
+msgstr ""
+
+#: inc/redux/config.php:198
+msgid "Preloader"
+msgstr ""
+
+#: inc/redux/config.php:206
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/redux/config.php:212
+msgid "Preloader Site Name"
+msgstr ""
+
+#: inc/redux/config.php:213
+msgid "Text displayed inside the preloader."
+msgstr ""
+
+#: index.php:21
+msgid "Our Blog"
+msgstr ""
+
+#: index.php:28
+msgid "Blog"
+msgstr ""
+
+#: page-templates/blog-2-column.php:83 page-templates/blog-3-column.php:83
+#: template-parts/content.php:39
+msgid "Read more"
+msgstr ""
+
+#: page-templates/blog-2-column.php:91 page-templates/blog-3-column.php:92
+#: page-templates/blog-standard.php:65
+msgid "No posts found."
+msgstr ""
+
+#: page.php:64 single.php:64
+msgid "Tags:"
+msgstr ""
+
+#: search.php:21
+msgid "Search Results For : "
+msgstr ""
+
+#: search.php:28
+msgid "Search Results"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search Here..."
+msgstr ""
+
+#: tag.php:21
+msgid "Tag Archives: "
+msgstr ""
+
+#: tag.php:28
+msgid "Tag Archives"
+msgstr ""
+
+#: template-parts/content-page.php:37
+msgid "No Comments"
+msgstr ""
+
+#: template-parts/content.php:18
+msgid "Uncategorized"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:340
+msgid "Install Required Plugins"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:341
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:343
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:345
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:346
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+
+#: tgm-plugin/class-tgm-plugin-activation.php:348
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+
+#: tgm-plugin/class-tgm-plugin-activation.php:354
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+
+#: tgm-plugin/class-tgm-plugin-activation.php:360
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+
+#: tgm-plugin/class-tgm-plugin-activation.php:366
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+
+#: tgm-plugin/class-tgm-plugin-activation.php:372
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+
+#: tgm-plugin/class-tgm-plugin-activation.php:378
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:398
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:400
+#: tgm-plugin/class-tgm-plugin-activation.php:3311
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:401
+#: tgm-plugin/class-tgm-plugin-activation.php:3103
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:403
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:405
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:407
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:408
+msgid "Dismiss this notice"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:409
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:410
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:1042
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:1042
+#: tgm-plugin/class-tgm-plugin-activation.php:1052
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:1052
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:1243
+#: tgm-plugin/class-tgm-plugin-activation.php:3099
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2112
+msgid "TGMPA v%s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2421
+msgid "Required"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2424
+msgid "Recommended"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2440
+msgid "WordPress Repository"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2443
+msgid "External Source"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2446
+msgid "Pre-Packaged"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2463
+msgid "Not Installed"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2467
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2469
+msgid "Active"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2475
+msgid "Required Update not Available"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2478
+msgid "Requires Update"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2481
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2490
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2536
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2540
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2544
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2548
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2630
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2638
+msgid "Installed version:"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2646
+msgid "Minimum required version:"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2658
+msgid "Available version:"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2681
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2695
+msgid "Plugin"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2696
+msgid "Source"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2697
+msgid "Type"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2701
+msgid "Version"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2702
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2751
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2756
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2762
+msgid "Activate %2$s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2834
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2867
+msgid "Install"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2873
+msgid "Update"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2876
+msgid "Activate"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2907
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2950
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3310
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3655
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3658
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3660
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3664
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3666
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3667
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3669
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3672
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3674
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3675
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3677
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3682
+msgid "Show Details"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3682
+msgid "Hide Details"
+msgstr ""
+
+#: tgm-plugin/recommend_plugins.php:63
+msgid "Contact Form 7"
+msgstr ""
+
+#: tgm-plugin/recommend_plugins.php:69
+msgid "Redux Framework"
+msgstr ""
+
+#: tgm-plugin/recommend_plugins.php:75
+msgid "One Click Demo Import"
+msgstr ""
+
+#: tgm-plugin/recommend_plugins.php:93
+msgid "Agenio Core"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Agenio"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wpriverthemes.com/agenio/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "AgenIo - AI Agency Wordpress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPRiver"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/wpriver"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Two Column"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Three Column"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Standard"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home Pages"
+msgstr ""
