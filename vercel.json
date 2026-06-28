@@ -1,21 +1,32 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": true,
   "rewrites": [
     { "source": "/", "destination": "/public/index.html" },
+    { "source": "/solutions", "destination": "/public/solutions/index.html" },
     { "source": "/solutions/", "destination": "/public/solutions/index.html" },
+    { "source": "/platform", "destination": "/public/platform/index.html" },
     { "source": "/platform/", "destination": "/public/platform/index.html" },
+    { "source": "/agents", "destination": "/public/agents/index.html" },
     { "source": "/agents/", "destination": "/public/agents/index.html" },
+    { "source": "/governance", "destination": "/public/governance/index.html" },
     { "source": "/governance/", "destination": "/public/governance/index.html" },
+    { "source": "/why", "destination": "/public/why/index.html" },
     { "source": "/why/", "destination": "/public/why/index.html" },
+    { "source": "/resources/blog", "destination": "/public/resources/blog/index.html" },
     { "source": "/resources/blog/", "destination": "/public/resources/blog/index.html" },
+    { "source": "/resources/cases", "destination": "/public/resources/cases/index.html" },
     { "source": "/resources/cases/", "destination": "/public/resources/cases/index.html" },
+    { "source": "/resources/briefs", "destination": "/public/resources/briefs/index.html" },
     { "source": "/resources/briefs/", "destination": "/public/resources/briefs/index.html" },
+    { "source": "/resources/docs", "destination": "/public/resources/docs/index.html" },
     { "source": "/resources/docs/", "destination": "/public/resources/docs/index.html" },
+    { "source": "/company/story", "destination": "/public/company/story/index.html" },
     { "source": "/company/story/", "destination": "/public/company/story/index.html" },
+    { "source": "/company/team", "destination": "/public/company/team/index.html" },
     { "source": "/company/team/", "destination": "/public/company/team/index.html" },
+    { "source": "/company/careers", "destination": "/public/company/careers/index.html" },
     { "source": "/company/careers/", "destination": "/public/company/careers/index.html" },
+    { "source": "/company/contact", "destination": "/public/company/contact/index.html" },
     { "source": "/company/contact/", "destination": "/public/company/contact/index.html" },
-    { "source": "/assets/(.*)", "destination": "/public/assets/$1" }
+    { "source": "/assets/:path*", "destination": "/public/assets/:path*" }
   ]
 }
